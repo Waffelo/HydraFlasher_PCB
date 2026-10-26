@@ -1,0 +1,14 @@
+# KiCad backups and caches
+*-backups/
+*.kicad_prl
+*.lck
+\#auto_saved_files#
+_autosave-*
+fp-info-cache
+*.bak
+*-bak
+*~
+
+# Generated outputs (remove these lines if you want to commit them)
+gerbers/
+production/
