@@ -1719,10 +1719,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AP7361C-33E"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1734,7 +1731,7 @@
 					)
 				)
 			)
-			(property "Value" "AP7361C-33E"
+			(property "Value" "AMS1117-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1744,17 +1741,16 @@
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.715 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
-				(at 0 -1.27 0)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1780,7 +1776,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1789,7 +1785,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP7361C-33E_0_1"
+			(symbol "AMS1117-3.3_0_1"
 				(rectangle
 					(start -5.08 -5.08)
 					(end 5.08 1.905)
@@ -1802,7 +1798,7 @@
 					)
 				)
 			)
-			(symbol "AP7361C-33E_1_1"
+			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -1813,7 +1809,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1831,7 +1827,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1849,7 +1845,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2100,7 +2096,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 07cbf6e1-bfae-44fc-a448-ef1c887a7c90)
 	)
@@ -2138,7 +2135,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 14725ee8-384e-4f6e-bf7c-8f7c336c0726)
 	)
@@ -2176,7 +2174,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 1a381a57-2a12-487a-9eb0-a70347468e4c)
 	)
@@ -2214,7 +2213,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 1c7ff6a1-951f-48f5-a796-2bb1bbb6c69c)
 	)
@@ -2252,7 +2252,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 21846031-5876-4acd-8ce1-7b3f11b1c896)
 	)
@@ -2302,7 +2303,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 2b6f7b04-11e6-4b0e-b2b4-f15ab4cf016d)
 	)
@@ -2340,7 +2342,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 2fcf6c7e-b3f8-4ec3-8d74-4d1b3f743115)
 	)
@@ -2380,7 +2383,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 36fc674e-6689-46b8-8260-61ed334bb654)
 	)
@@ -2405,7 +2409,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 4e8ce623-9ec4-4738-9667-c58485c5bf45)
 	)
@@ -2443,7 +2448,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 5edefa5b-5365-490e-a923-8f2cb2bb67bb)
 	)
@@ -2481,7 +2487,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 6fae5aac-4024-4317-9098-5f2b2373b09e)
 	)
@@ -2519,7 +2526,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 7e3fa6ec-165b-4b9f-8f14-10404669e885)
 	)
@@ -2537,7 +2545,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid 94fcbf27-79d6-494a-bc6b-2df438dcb73b)
 	)
@@ -2587,7 +2596,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid a0528efd-e30c-4442-99c6-a635cbd7b11f)
 	)
@@ -2625,7 +2635,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid a0fe8896-0aaa-4ac4-8090-ae98608e3ef8)
 	)
@@ -2663,7 +2674,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid a5dd15e3-f2a5-415d-95b6-f43637e88785)
 	)
@@ -2701,7 +2713,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid a77328f3-3a5d-4c55-83f6-0fc91ccb716b)
 	)
@@ -2750,7 +2763,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid c948e3d6-5b8b-42c3-a0b8-d3be89434ca7)
 	)
@@ -3355,7 +3369,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid ca9da7e1-2db1-498a-b27b-0aaf77fbd731)
 	)
@@ -3383,7 +3398,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid ce3d432d-287a-44cb-a9a3-e7797cf6b2fc)
 	)
@@ -3438,7 +3454,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid ed65faaf-2763-4c61-a76e-9de6b1be56a1)
 	)
@@ -3476,7 +3493,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid f503af68-eb0c-4a73-98ac-30994c5f5ef5)
 	)
@@ -3514,7 +3532,8 @@
 			(type solid)
 		)
 		(fill
-			(type outline)
+			(type color)
+			(color 0 0 0 0)
 		)
 		(uuid fd62c0eb-c1f0-41e1-a4ed-80f8e1bd5b33)
 	)
@@ -6915,6 +6934,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2843785"
+			(at 59.436 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 67.31 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c6f559b2-adcb-4eb9-a3df-d7653d1332aa")
 		)
@@ -6946,7 +6983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1bcabf4d-eb6e-4789-afaf-acf69bfde19b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR13"
 			(at 231.14 142.24 0)
 			(effects
 				(font
@@ -6997,7 +7034,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR013")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -7013,7 +7050,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22810c0c-fe2e-40ef-8a05-91d579d8f242")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR7"
 			(at 85.09 86.36 0)
 			(effects
 				(font
@@ -7064,79 +7101,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP7361C-33E")
-		(at 124.46 26.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e3aeece-0061-45e6-9777-d36b744110d9")
-		(property "Reference" "U1"
-			(at 124.46 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP7361C-33E"
-			(at 124.46 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 124.46 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
-			(at 124.46 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 124.46 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d89b7d3d-b8a3-4a30-831e-5f6a02c07179")
-		)
-		(pin "3"
-			(uuid "186f4cb2-d081-4ec4-8134-98e77ad5710e")
-		)
-		(pin "2"
-			(uuid "e7a0ed52-00bf-4cfc-b06f-3a8a26d65e17")
-		)
-		(instances
-			(project ""
-				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "U1")
+					(reference "#PWR7")
 					(unit 1)
 				)
 			)
@@ -7152,7 +7117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "34c40d5d-ac64-4e4a-acbc-781de90082bc")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR3"
 			(at 133.35 26.67 0)
 			(effects
 				(font
@@ -7203,7 +7168,7 @@
 		(instances
 			(project ""
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR03")
+					(reference "#PWR3")
 					(unit 1)
 				)
 			)
@@ -7226,7 +7191,7 @@
 				)
 			)
 		)
-		(property "Value" "100NF"
+		(property "Value" "100nF"
 			(at 54.356 124.714 90)
 			(effects
 				(font
@@ -7254,6 +7219,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 49.53 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 53.34 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,7 +7267,7 @@
 				)
 			)
 		)
-		(property "Value" "100NF"
+		(property "Value" "100nF"
 			(at 191.516 124.714 90)
 			(effects
 				(font
@@ -7321,6 +7295,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 186.69 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 190.5 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7360,7 +7343,7 @@
 				)
 			)
 		)
-		(property "Value" "100NF"
+		(property "Value" "100nF"
 			(at 168.656 124.714 90)
 			(effects
 				(font
@@ -7388,6 +7371,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 167.64 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7464,6 +7456,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2843785"
+			(at 128.016 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 135.89 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2919adc4-f8cb-40dc-a93d-d23a19e6e6b1")
 		)
@@ -7502,7 +7512,7 @@
 				)
 			)
 		)
-		(property "Value" "100NF"
+		(property "Value" "100nF"
 			(at 214.376 124.714 90)
 			(effects
 				(font
@@ -7537,6 +7547,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 213.36 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3409ecf-e04f-4334-acbb-b915de1993e5")
 		)
@@ -7562,7 +7581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e059c99-03a0-4880-8bab-9e36c16e7d70")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR11"
 			(at 222.25 116.84 0)
 			(effects
 				(font
@@ -7613,7 +7632,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR011")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -7638,7 +7657,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 µF"
+		(property "Value" "22 µF"
 			(at 137.16 34.2899 0)
 			(effects
 				(font
@@ -7674,6 +7693,33 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" "C784585"
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805MKX5R8BB226"
+			(at 133.35 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C784585"
+			(at 137.16 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d0c87486-3455-49b7-9cc6-bc2109a6e609")
 		)
@@ -7698,7 +7744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fe98572-704a-4f59-9005-7a28b892937d")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR5"
 			(at 118.11 78.74 0)
 			(effects
 				(font
@@ -7748,7 +7794,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR05")
+					(reference "#PWR5")
 					(unit 1)
 				)
 			)
@@ -7764,7 +7810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7432c216-ece4-44c0-b8ef-68e7539460af")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR9"
 			(at 124.46 102.87 0)
 			(effects
 				(font
@@ -7815,7 +7861,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR09")
+					(reference "#PWR9")
 					(unit 1)
 				)
 			)
@@ -7875,6 +7921,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2843785"
+			(at 105.156 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 113.03 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f60b8d3-0091-43ac-ab38-16b778b9f7c2")
 		)
@@ -7913,7 +7977,7 @@
 				)
 			)
 		)
-		(property "Value" "100NF"
+		(property "Value" "100nF"
 			(at 145.796 124.714 90)
 			(effects
 				(font
@@ -7948,6 +8012,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 144.78 122.428 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c796638-e800-4306-8e69-452991021044")
 		)
@@ -7973,7 +8046,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ad1287d-4246-48c9-9f08-38484f5ffee7")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR2"
 			(at 114.3 26.67 0)
 			(effects
 				(font
@@ -8024,7 +8097,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR02")
+					(reference "#PWR2")
 					(unit 1)
 				)
 			)
@@ -8084,6 +8157,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2843785"
+			(at 150.876 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 158.75 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "69cd6ae3-2f58-45ec-a3b7-6af354269029")
 		)
@@ -8122,7 +8213,7 @@
 				)
 			)
 		)
-		(property "Value" "100 nF"
+		(property "Value" "100nF"
 			(at 127.762 77.216 90)
 			(effects
 				(font
@@ -8130,7 +8221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 119.38 79.7052 0)
 			(effects
 				(font
@@ -8150,6 +8241,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 125.984 75.184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,6 +8324,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17630"
+			(at 137.922 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5773cc7a-4d4d-4d27-a50d-f156a59c45f2")
 		)
@@ -8249,7 +8358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87b1a3b4-010a-4342-b494-d60cb1e33208")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR12"
 			(at 26.67 142.24 0)
 			(effects
 				(font
@@ -8300,7 +8409,114 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR012")
+					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 124.46 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9542dbee-09a4-4b79-8d00-c6e7e88fcf3a")
+		(property "Reference" "U1"
+			(at 124.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 124.46 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 124.46 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 127 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LSCS" "C6186"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AMS1117-3.3"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6186"
+			(at 124.46 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 124.46 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5ce9337-c5f6-42cf-b90d-d4fb2dbca8e2")
+		)
+		(pin "3"
+			(uuid "bf629629-7ebf-4d2e-9449-18ec6f766635")
+		)
+		(pin "2"
+			(uuid "e491f74b-1f33-457c-b711-9256b2b1c1a3")
+		)
+		(instances
+			(project ""
+				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -8316,7 +8532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "955f6c83-4750-4fcf-b017-d207efd87163")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR6"
 			(at 139.7 78.74 0)
 			(effects
 				(font
@@ -8367,7 +8583,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR06")
+					(reference "#PWR6")
 					(unit 1)
 				)
 			)
@@ -8390,7 +8606,7 @@
 				)
 			)
 		)
-		(property "Value" "100NF"
+		(property "Value" "100nF"
 			(at 122.936 124.714 90)
 			(effects
 				(font
@@ -8418,6 +8634,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 118.11 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 121.92 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,6 +8712,24 @@
 		)
 		(property "Description" "RGB LED with integrated controller"
 			(at 204.47 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843785"
+			(at 196.596 126.746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 204.47 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8569,6 +8812,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2843785"
+			(at 173.736 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 181.61 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a228dfbf-5972-4096-92a6-275eb2d78bbd")
 		)
@@ -8608,7 +8869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 µF"
+		(property "Value" "22 µF"
 			(at 105.664 33.782 0)
 			(effects
 				(font
@@ -8644,6 +8905,33 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" "C784585"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0805MKX5R8BB226"
+			(at 115.57 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C784585"
+			(at 109.22 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6b4f45ee-836d-4fce-98cc-9b3f5a9fa5e1")
 		)
@@ -8669,7 +8957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ada024e6-0605-4de0-9806-384b6826524c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR4"
 			(at 124.46 46.99 0)
 			(effects
 				(font
@@ -8719,7 +9007,7 @@
 		(instances
 			(project ""
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR04")
+					(reference "#PWR4")
 					(unit 1)
 				)
 			)
@@ -8772,6 +9060,24 @@
 		)
 		(property "Description" "RGB LED with integrated controller"
 			(at 44.45 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2843785"
+			(at 36.576 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 44.45 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8852,6 +9158,42 @@
 				(hide yes)
 			)
 		)
+		(property "LSCS" "C7484"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74AHCT1G125DBVR"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7484"
+			(at 127 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 123.19 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "1823dd80-18ec-409e-99cf-cd40a17fc7e9")
 		)
@@ -8886,7 +9228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6f344cf-0e55-4ec1-819b-def41e6d0192")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR1"
 			(at 55.88 29.21 0)
 			(effects
 				(font
@@ -8936,7 +9278,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR01")
+					(reference "#PWR1")
 					(unit 1)
 				)
 			)
@@ -8996,6 +9338,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2843785"
+			(at 82.296 126.492 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "180"
+			(at 90.17 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b137530b-ef9a-402c-a969-0bb36d5fb20a")
 		)
@@ -9027,7 +9387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dac1462c-5749-4f90-9022-d1152fcd67d9")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR8"
 			(at 55.88 106.68 0)
 			(effects
 				(font
@@ -9077,7 +9437,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR08")
+					(reference "#PWR8")
 					(unit 1)
 				)
 			)
@@ -9111,13 +9471,12 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rawr:Raspberry Pico SMD (with model)"
+		(property "Footprint" "rawr:Raspberry Pico SMD (with model)"
 			(at 55.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf"
@@ -9131,6 +9490,15 @@
 		)
 		(property "Description" "Versatile and inexpensive microcontroller module powered by RP2040 dual-core Arm Cortex-M0+ processor up to 133 MHz, 264kB SRAM, 2MB QSPI flash; also supports Raspberry Pi Pico 2"
 			(at 55.88 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7203002"
+			(at 58.0233 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9277,7 +9645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e58d04e3-ad63-48be-95f6-0146bfe9477d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR10"
 			(at 35.56 116.84 0)
 			(effects
 				(font
@@ -9328,7 +9696,7 @@
 		(instances
 			(project "HydraFlasher_KiCAD"
 				(path "/c22f8515-e30a-4928-96cd-86ae651c58e5"
-					(reference "#PWR010")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -9351,7 +9719,7 @@
 				)
 			)
 		)
-		(property "Value" "100NF"
+		(property "Value" "100nF"
 			(at 100.076 124.714 90)
 			(effects
 				(font
@@ -9379,6 +9747,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 95.25 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 99.06 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9418,7 +9795,7 @@
 				)
 			)
 		)
-		(property "Value" "100NF"
+		(property "Value" "100nF"
 			(at 77.216 124.714 90)
 			(effects
 				(font
@@ -9446,6 +9823,15 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 72.39 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 76.2 122.428 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1197,34 +1197,6 @@
 		(layers "F.Paste")
 		(uuid "93cf96d0-0b30-472d-af22-401e21916d65")
 	)
-	(pad "" np_thru_hole circle
-		(at -2.725 -24)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Mask")
-		(uuid "36543341-c566-46a9-90d4-d5ec57940c0b")
-	)
-	(pad "" np_thru_hole circle
-		(at -2.425 -20.97)
-		(size 1.85 1.85)
-		(drill 1.85)
-		(layers "*.Mask")
-		(uuid "0e826b3c-f75b-4f4f-a486-7a75a2ff4eb4")
-	)
-	(pad "" np_thru_hole circle
-		(at 2.425 -20.97)
-		(size 1.85 1.85)
-		(drill 1.85)
-		(layers "*.Mask")
-		(uuid "fb53f9e2-aeee-47a6-baee-a3f1cceb0a71")
-	)
-	(pad "" np_thru_hole circle
-		(at 2.725 -24)
-		(size 2.2 2.2)
-		(drill 2.2)
-		(layers "*.Mask")
-		(uuid "44ac07b6-65fa-49ab-9463-d3d8aad444ed")
-	)
 	(pad "" smd rect
 		(at 8.89 -24.13)
 		(size 3.8 2.2)
@@ -2388,24 +2360,6 @@
 		)
 	)
 	(group ""
-		(uuid "63de1189-db47-4a7d-83f0-60bd86a10a01")
-		(members "0e826b3c-f75b-4f4f-a486-7a75a2ff4eb4" "0f2174e6-0abb-47d3-8ed4-9c1e3185c748"
-			"128f4527-d7ad-4b00-95c5-1d091d75d97f" "1c232fad-bd82-4e41-997d-9f06dc7d16fb"
-			"24bcface-337d-4125-a00b-fea2e01ff9cb" "2edb950e-7148-4545-8fff-da0eae34278e"
-			"30729a38-83f1-43c3-b41f-94adc3ea0ff5" "36543341-c566-46a9-90d4-d5ec57940c0b"
-			"39090994-ab2a-41af-968a-1895931765e5" "3cb39399-4117-45c3-b27d-4eeefbc42260"
-			"3f15597c-e97d-4a38-b2fe-ce92875bd2ce" "4314803f-5338-452c-8424-ca6eb7064d6e"
-			"44ac07b6-65fa-49ab-9463-d3d8aad444ed" "48aef472-3824-4b2b-956b-3913fa75593d"
-			"5577cb16-44b5-402e-98cf-e01e81476c63" "56bffe4c-d2b0-44a2-9d4a-79fe5be536c7"
-			"58eb6809-b1ae-40e3-bb7b-14f1a2446332" "76bf47db-37d8-4ab2-8f22-05c43d759f6a"
-			"8c9f803f-0c45-4aac-86cd-095e66b02086" "aa282438-9eea-4b87-8986-01dfe719a00d"
-			"b3af82f3-ee3b-460a-88e8-073e77ddfb15" "c37081b6-1d2e-4c92-8103-afb6d535a4ff"
-			"c8105f75-182d-45e3-914a-2a0211499006" "ce10a002-db51-414e-b50b-a0a49bdeb3fe"
-			"dafb9c57-054a-46e3-84a0-b1992ecb68c9" "edb04273-dabd-4b87-b96c-003cc4c9946d"
-			"ef1476f2-d003-4706-bf24-c0629fef843b" "fb53f9e2-aeee-47a6-baee-a3f1cceb0a71"
-		)
-	)
-	(group ""
 		(uuid "f69d5110-f549-469c-bd3f-4a3708bf16d8")
 		(members "03c6b904-8f57-4dff-8108-cb06613f7de5" "09442bde-6a94-47c6-8be6-ac88f7a6e56e"
 			"0c524b16-d90e-40ca-8d26-8e37930963bf" "16f1559d-edbb-486b-806f-1893314ec42d"
@@ -2448,6 +2402,22 @@
 			"f09a6ee4-750d-4a80-8eb4-7b3583a305b2" "f09ab804-09fb-43d2-9764-01eef1d3da38"
 			"f27096ff-8494-4e3e-89d8-57d39b3fa96f" "fa076cb2-947d-496e-8fbd-6b02a93727b5"
 			"fbbfb758-b35f-4bea-8246-a919ff05b211" "feb6a2c2-053e-447e-83ed-90e47bb5cc2d"
+		)
+	)
+	(group ""
+		(uuid "63de1189-db47-4a7d-83f0-60bd86a10a01")
+		(members "0f2174e6-0abb-47d3-8ed4-9c1e3185c748" "128f4527-d7ad-4b00-95c5-1d091d75d97f"
+			"1c232fad-bd82-4e41-997d-9f06dc7d16fb" "24bcface-337d-4125-a00b-fea2e01ff9cb"
+			"2edb950e-7148-4545-8fff-da0eae34278e" "30729a38-83f1-43c3-b41f-94adc3ea0ff5"
+			"39090994-ab2a-41af-968a-1895931765e5" "3cb39399-4117-45c3-b27d-4eeefbc42260"
+			"3f15597c-e97d-4a38-b2fe-ce92875bd2ce" "4314803f-5338-452c-8424-ca6eb7064d6e"
+			"48aef472-3824-4b2b-956b-3913fa75593d" "5577cb16-44b5-402e-98cf-e01e81476c63"
+			"56bffe4c-d2b0-44a2-9d4a-79fe5be536c7" "58eb6809-b1ae-40e3-bb7b-14f1a2446332"
+			"76bf47db-37d8-4ab2-8f22-05c43d759f6a" "8c9f803f-0c45-4aac-86cd-095e66b02086"
+			"aa282438-9eea-4b87-8986-01dfe719a00d" "b3af82f3-ee3b-460a-88e8-073e77ddfb15"
+			"c37081b6-1d2e-4c92-8103-afb6d535a4ff" "c8105f75-182d-45e3-914a-2a0211499006"
+			"ce10a002-db51-414e-b50b-a0a49bdeb3fe" "dafb9c57-054a-46e3-84a0-b1992ecb68c9"
+			"edb04273-dabd-4b87-b96c-003cc4c9946d" "ef1476f2-d003-4706-bf24-c0629fef843b"
 		)
 	)
 	(group ""
